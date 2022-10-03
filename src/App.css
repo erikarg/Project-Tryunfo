@@ -1,0 +1,188 @@
+h2 {
+  margin-left: 10.7rem;
+  margin-top: 7rem;
+  padding: 20px;
+  text-align: left;
+}
+
+.cardTitle {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.savedCards {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 30%;
+}
+
+.savedCardsBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.savedAttributes {
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 3px;
+  height: 6rem;
+  justify-content: flex-end;
+  margin-left: 14.5rem;
+  position: absolute;
+  top: 88rem;
+}
+
+.savedAttributes p {
+  margin: 0;
+  padding: 4px;
+}
+
+.cardRareSaved {
+  color: gold;
+  font-size: smaller;
+  font-weight: 700;
+  height: 50px;
+  margin: 0;
+  padding-right: 20px;
+  padding-top: 8px;
+}
+
+.father {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  display: flex;
+}
+
+.rare {
+  color: gold;
+  font-size: smaller;
+  font-weight: 700;
+  position: absolute;
+  right: 16.3rem;
+  top: 20.55rem;
+}
+
+input {
+  border: 1px solid #29313d;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: right;
+  padding: 5px;
+  width: 15rem;
+}
+
+textarea {
+  display: flex;
+}
+
+label {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+.card {
+  background-image: url('../images/jscard.png');
+  background-size: cover;
+  display: flex;
+  height: 450px;
+  text-align: left;
+  width: 300px;
+}
+
+.rightSide {
+  align-items: center;
+  background-color: #023031;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.cardName {
+  color: white;
+  margin-top: 10px;
+}
+
+.cardDescription {
+  color: white;
+  font-size: small;
+  margin-left: -15.2rem;
+  margin-top: 15rem;
+  transform: rotate(-7deg);
+  width: 255px;
+}
+
+.cardDescriptionSaved {
+  color: white;
+  font-size: small;
+  margin-left: -14.5rem;
+  margin-top: 15.5rem;
+  transform: rotate(-7deg);
+}
+
+.imageCard {
+  height: 160px;
+  margin-left: 2rem;
+  margin-top: 4.9rem;
+  position: absolute;
+  transform: rotate(-7deg);
+  width: 255px;
+}
+
+.son {
+  display: flex;
+  justify-content: space-between;
+}
+
+.attributes {
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  margin-left: -46px;
+  padding-bottom: 48px;
+}
+
+.attributes p {
+  margin: 0;
+  padding: 6px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 10rem;
+  padding-top: 5px;
+  width: 50%;
+}
+
+.savedCardsTitle {
+  display: flex;
+  justify-content: center;
+}
+
+input#cardTrunfo {
+  margin-left: 50px;
+  margin-top: -14px;
+}
+
+button#saveButton {
+  background-color: #003be5;
+  border-radius: 2px;
+  color: white;
+  height: 40px;
+  margin-left: 1.8rem;
+  padding: 5px;
+  width: 115px;
+}
